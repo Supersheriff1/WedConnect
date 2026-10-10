@@ -2,8 +2,9 @@
 
 **Stand:** 10. Oktober 2026  
 **Status:** visuell freigegebener Prototyp, noch kein produktives Produkt  
-**Eingefrorene Demo:** `baseline/2026-10-10-pairing-demo`  
-**Aktuelle Design-Dokumentation:** `docs/DESIGN_BIBLE.md` im Branch `docs/wedconnect-design-bible-v1.0`
+**Eingefrorene Basis:** `baseline/2026-10-10-pairing-demo`  
+**Aktueller Arbeitsstand:** `feature/fotografen-page`  
+**Aktuelle Design-Dokumentation:** [`docs/DESIGN_BIBLE.md`](DESIGN_BIBLE.md), Version 1.1
 
 ## Projektziel
 
@@ -19,21 +20,21 @@ Ein Interesse ist unverbindlich. Ein Match bedeutet gegenseitiges Interesse und 
 - Umfang, Preis, Ablauf und Rechte werden vor einer Zusammenarbeit transparent besprochen.
 - Das Paar erhält standardmäßig volle Nutzungsrechte. Eine Portfolio- oder Werbenutzung durch den Fotografen braucht eine zusätzliche, ausdrückliche Vereinbarung.
 
-## Eingefrorener Prototyp
+## Prototyp und aktuelle Weiterentwicklung
 
 Die direkt im Browser öffnungsfähige Datei [`prototype/index.html`](../prototype/index.html) vereint Website und App-Vorschau in einer HTML-Datei. CSS, JavaScript und die Hero-Illustration sind eingebettet.
 
 - Startseite mit der Headline „Wo Hochzeitspaare und Fotografen sich finden.“
-- Informationsseiten für Hochzeitspaare und Fotografen
+- Informationsseite für Hochzeitspaare sowie neu ausgearbeitete Fotografen-Seite mit Hero-Illustration, responsiven Inhaltsblöcken, Match-Ablauf und transparentem Abschnitt zu Bildrechten
 - navigierbare App-Demo mit Rollenwahl, Demo-Profilen, Filtern, Interessensaktionen, Match-Rückmeldung sowie Nachrichten-, Profil- und Kontobereichen
-- dunkles Pairing-Design mit Goldakzenten und zentriertem Verbindungselement
+- Pairing-Design mit Goldakzenten und zentriertem Verbindungselement; die freigegebene redaktionelle Hero-Illustration ist als visuelle Referenz für die Website festgelegt
 - responsive Navigation und fließende Seitenränder für schmale, mittlere und breite Viewports
 
 Profile, Konten, Matches, Nachrichten und Aktionen sind Beispieldaten beziehungsweise lokale Simulationen. Die Hero-Abbildung ist als KI-Illustration gekennzeichnet.
 
 ## Design- und Markenstatus
 
-Der aktuelle Produktname ist **WedConnect**. Die aktuelle visuelle Referenz ist [`DESIGN_BIBLE.md`](DESIGN_BIBLE.md), WedConnect Design Bible v1.0. Sie ersetzt Cream-&-Gold-Vorgaben aus der früheren Together Design Bible.
+Der aktuelle Produktname ist **WedConnect**. Die aktuelle visuelle Referenz ist [`DESIGN_BIBLE.md`](DESIGN_BIBLE.md), WedConnect Design Bible v1.1. Sie ersetzt Cream-&-Gold-Vorgaben aus der früheren Together Design Bible.
 
 Die Projekt- und Brand-Voice-Bibles unter `docs/sources/` dokumentieren den historischen Together-Stand und bleiben als unveränderte Quellen erhalten. Sie müssen noch separat auf WedConnect und den aktuellen Produktstand konsolidiert werden.
 
