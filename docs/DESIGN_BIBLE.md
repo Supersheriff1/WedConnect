@@ -1,8 +1,8 @@
 # WedConnect · Design Bible
 
-**Version:** 1.0  
+**Version:** 1.1  
 **Stand:** 10. Oktober 2026  
-**Status:** verbindlicher visueller Standard ab diesem Stand  
+**Status:** verbindlicher visueller Standard ab diesem Stand; ergänzt um das WedConnect-Illustrationssystem  
 **Geltungsbereich:** öffentliche Website, App-Demo und alle neuen WedConnect-Oberflächen  
 **Designsystem:** Pairing · Dark Editorial · Gold
 
@@ -129,17 +129,28 @@ Die Hauptheadline kann zweifarbig sein: Haupttext in `text-primary`, ein inhaltl
 
 Breakpoints sind Startwerte der Referenz, keine Erlaubnis für abrupte oder fehlerhafte Zwischenlayouts. Neue Komponenten müssen flexibel auf die tatsächliche verfügbare Breite reagieren.
 
-## 5. Bildsprache
+## 5. Bildsprache und Illustrationssystem
 
-Bilder bringen echte Hochzeitserfahrung und fotografische Qualität in die Oberfläche. Die Gestaltung bleibt dokumentarisch, modern und glaubwürdig.
+Die redaktionellen Illustrationen sind ein wiedererkennbares WedConnect-Markenelement. Die freigegebene Hero-Illustration mit Fotograf, Hochzeitspaar und klarer Architektur ist die visuelle Referenz für weitere Illustrationen auf der gesamten öffentlichen Website.
 
-- Bevorzugt werden echte Hochzeitsreportagen und nachvollziehbare Portfolioarbeiten.
-- Illustrationen sind zulässig, wenn sie redaktionell, hochwertig und zurückhaltend wirken. KI-Bilder werden als solche gekennzeichnet.
-- Bildauswahl zeigt echte Menschen und Arbeitskontexte, keine inszenierten Hochzeitsklischees.
-- Keine Bögen oder Fensterformen als Bildmaske, kein dekorativer Rahmen, der die Bildwirkung dominiert.
+### Illustrationsstil
+
+- Hochwertige, redaktionelle Bildgestaltung mit glaubwürdigen Menschen, natürlicher Körpersprache und sichtbarem fotografischem Arbeitskontext.
+- Die Szene zeigt eine echte Begegnung oder Zusammenarbeit: Paar und Fotograf auf Augenhöhe, der Fotograf bei der Arbeit, ohne gestellte Werbe-Pose.
+- Architektur und präzise Bildkomposition geben den Motiven eine moderne, professionelle Note. Warme, gedeckte Farben dürfen die Hochzeitswelt zeigen; sie werden kontrolliert eingesetzt und bleiben Teil der bestehenden Palette.
+- Die Illustrationen wirken erwachsen, elegant und zeitgemäß. Keine niedlichen Figuren, übertriebene Romantik, Herzen, Schleifen, Blumenornamente, Märchenmotive oder romantischen Bögen.
+- Neue Motive folgen der freigegebenen Hero-Illustration in Farbigkeit, Detailgrad und Licht. Pro Seite werden gezielt passende Szenen gewählt; dieselbe Illustration kann als wiederkehrendes Markenmotiv sparsam erneut erscheinen.
+- Illustrationen unterstützen Seiteneinstiege, Erklärungen und leere Zustände. Sie ersetzen nicht die echten Portfolioarbeiten der Nutzer.
+- KI-generierte Illustrationen in Demos und redaktionellen Bereichen werden entsprechend gekennzeichnet. Illustrationen dürfen keine echte Reportage oder bestätigte Nutzerreferenz vortäuschen.
+
+### Fotografie und Bildauswahl
+
+- In Nutzerprofilen, Hochzeitsentdeckungen und Portfolioansichten stehen echte, vom Nutzer bereitgestellte Fotoarbeiten im Vordergrund.
+- Bildauswahl zeigt echte Menschen und glaubwürdige Arbeitskontexte, keine inszenierten Hochzeitsklischees.
 - Zuschnitte erhalten Gesichter, wichtige Gesten und fotografische Aussage. Wo ein vollständiger Bildausschnitt wichtig ist, wird kein `cover`-Zuschnitt erzwungen.
 - Bildunterschriften, Nummern und erklärende Angaben stehen bevorzugt in einer ausgerichteten Zeile unter dem Bild. Sie werden nicht über das Motiv gelegt, wenn sie dort nicht klar lesbar sind.
 - Hero-Motive erhalten Raum, aber keine losgelösten Badges oder Texte, die an Bild- oder Viewporträndern kleben.
+- Keine Bögen oder Fensterformen als Bildmaske; kein dekorativer Rahmen, der die Bildwirkung dominiert.
 
 ## 6. Komponenten
 
