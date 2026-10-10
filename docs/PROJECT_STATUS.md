@@ -3,7 +3,7 @@
 **Stand:** 10. Oktober 2026  
 **Status:** visuell freigegebener Prototyp, noch kein produktives Produkt  
 **Eingefrorene Demo:** `baseline/2026-10-10-pairing-demo`  
-**Aktuelle Design-Dokumentation:** `docs/wedconnect-design-bible-v1.0`
+**Aktuelle Design-Dokumentation:** `docs/DESIGN_BIBLE.md` im Branch `docs/wedconnect-design-bible-v1.0`
 
 ## Projektziel
 
