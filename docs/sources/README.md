@@ -1,5 +1,7 @@
-# Projektquellen
+# Historische Projektquellen
 
-Die folgenden Dokumente wurden aus dem bisherigen Together-Arbeitsstand unverändert übernommen. Sie dokumentieren die Quellen der Produktidee, Markenstimme und früheren visuellen Vorgaben.
+Diese Dokumente wurden aus dem Together-Arbeitsstand unverändert übernommen. Sie bewahren die früheren Vorgaben für Produkt, Marke und Sprache.
 
-Der aktuelle Produktname ist WedConnect. Für den eingefrorenen Prototyp gilt das dunkle Pairing-Design mit Goldakzenten. Wo diese Dateien noch Together oder Cream & Gold nennen, bilden sie den historischen Quellenstand ab und sind vor der nächsten Implementierungsrunde zu konsolidieren.
+Die aktuelle visuelle Referenz liegt in [`../DESIGN_BIBLE.md`](../DESIGN_BIBLE.md): WedConnect Design Bible v1.0, Pairing · Dark Editorial · Gold. Sie ersetzt die frühere Cream-&-Gold-Gestaltung.
+
+Die Project Bible und die Brand-Voice-Bible werden zu einem späteren Schritt auf den aktuellen Produktnamen WedConnect und den bestätigten Pairing-Stand aktualisiert. Bis dahin sind Together-Bezeichnungen und ältere Designangaben in diesen beiden Quellen als historischer Arbeitsstand zu lesen.
