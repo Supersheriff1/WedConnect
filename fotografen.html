@@ -242,203 +242,54 @@ main,.view,.shell,.app-main{min-width:0}
 .hero-grid,.hero-copy,.hero-visual,.app-main,.appview{min-width:0;max-width:100%}
 @media(max-width:720px){.app-main{padding-inline:clamp(18px,5vw,24px)!important}}
 
-/* Photographer landing page — Pairing system */
-#photographers .photographer-hero{display:grid;grid-template-columns:minmax(0,1.03fr) minmax(360px,.97fr);gap:clamp(34px,6vw,88px);align-items:center;padding:clamp(42px,7vw,92px) 0 clamp(68px,9vw,120px);border-bottom:1px solid var(--line)}
-#photographers .photographer-hero-copy{max-width:690px;min-width:0}
-#photographers .photographer-hero h1{font-size:clamp(40px,5.5vw,70px);line-height:1.04;letter-spacing:-.055em;max-width:760px;margin:18px 0 23px}
-#photographers .photographer-hero h1 em{font-style:normal;color:var(--gold)}
-#photographers .photographer-hero-copy>.lead{max-width:590px;font-size:clamp(17px,1.5vw,20px);line-height:1.7}
+/* Photographer page: one typography and spacing system */
+#photographers .photographer-hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(32px,5vw,72px);align-items:center;padding:clamp(42px,6vw,76px) 0 clamp(58px,7vw,92px);border-bottom:1px solid var(--line)}
+#photographers .photographer-hero-copy{max-width:680px;min-width:0}
+#photographers .photographer-hero h1{font:600 clamp(42px,5.3vw,68px)/1.04 var(--serif);letter-spacing:-.045em;max-width:720px;margin:20px 0 18px;color:var(--ink)}
+#photographers .photographer-hero h2{font:500 clamp(21px,2.15vw,28px)/1.35 var(--sans);letter-spacing:-.025em;max-width:620px;margin:0 0 18px;color:var(--gold-dark)}
+#photographers .photographer-hero-copy>.lead{max-width:620px;font:400 clamp(16px,1.3vw,18px)/1.75 var(--sans);color:var(--text)}
+#photographers .photographer-actions{display:flex;justify-content:flex-start;gap:12px;flex-wrap:wrap;margin-top:25px}
+#photographers .photographer-actions .button{min-height:50px;padding:0 20px;border-radius:7px}
+#photographers .photographer-hero-art{min-width:0;margin:0;position:relative}
+#photographers .art-frame{aspect-ratio:1.16;position:relative;overflow:hidden;border-radius:12px;border:1px solid var(--line);background:var(--soft)}
+#photographers .art-frame img{width:100%;height:100%;display:block;object-fit:cover;object-position:center 47%}
+#photographers .art-index{position:absolute;right:14px;top:14px;z-index:1;border:1px solid rgba(255,255,255,.65);background:rgba(17,23,32,.5);backdrop-filter:blur(9px);color:#fff;padding:8px 10px;border-radius:4px;font:10px var(--mono);letter-spacing:.08em}
+#photographers .photographer-hero-art figcaption{display:flex;justify-content:space-between;gap:15px;padding:13px 2px 0;color:var(--muted);font-size:11px}
 #photographers .eyebrow-line{display:inline-block;width:24px;height:1px;vertical-align:middle;background:var(--gold);margin-right:9px}
 #photographers .eyebrow-dot{color:var(--gold);padding:0 5px}
-#photographers .photographer-hero-note{font:12px var(--mono);letter-spacing:.04em;color:var(--gold);margin:19px 0 26px}
-#photographers .photographer-actions{justify-content:flex-start;gap:11px;flex-wrap:wrap}
-#photographers .photographer-actions .button,#photographers .photographer-benefits .button,#photographers .photographer-final-cta>.button{min-height:50px;padding:0 20px;border-radius:8px}
-#photographers .photographer-proof{display:flex;gap:13px;align-items:center;color:var(--muted);font-size:12px;line-height:1.5;margin-top:28px}
-#photographers .proof-mark{font:11px var(--mono);color:var(--gold);border:1px solid var(--line);border-radius:50%;width:35px;height:35px;display:grid;place-items:center;flex:none}
-#photographers .photographer-proof b{color:var(--ink);font-weight:600}
-#photographers .photographer-hero-art{min-width:0;margin:0;position:relative}
-#photographers .art-frame{aspect-ratio:1.22;position:relative;overflow:hidden;border-radius:18px;border:1px solid var(--line);background:var(--soft)}
-#photographers .art-frame:after{content:"";position:absolute;inset:0;background:linear-gradient(145deg,rgba(16,22,30,.08),transparent 48%,rgba(16,22,30,.1));pointer-events:none}
-#photographers .art-frame img{width:100%;height:100%;display:block;object-fit:cover;object-position:center 47%}
-#photographers .art-index{position:absolute;right:14px;top:14px;z-index:1;border:1px solid rgba(255,255,255,.65);background:rgba(17,23,32,.48);backdrop-filter:blur(9px);color:#fff;padding:8px 10px;border-radius:5px;font:10px var(--mono);letter-spacing:.08em}
-#photographers .photographer-hero-art figcaption{display:flex;justify-content:space-between;gap:15px;padding:13px 2px 0;color:var(--muted);font-size:11px}
-#photographers .photographer-hero-art figcaption span:first-child{color:var(--ink);font-weight:600}
-#photographers .photographer-section{padding:clamp(66px,8vw,108px) 0;border-bottom:1px solid var(--line)}
-#photographers .section-heading-row{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(240px,.75fr);gap:40px;align-items:end;margin-bottom:34px}
-#photographers .section-heading-row h2,#photographers .photographer-benefits h2,#photographers .photographer-final-cta h2{font-size:clamp(30px,4vw,48px);line-height:1.12;letter-spacing:-.045em;max-width:690px;margin:12px 0 0}
-#photographers .section-intro{max-width:440px;color:var(--muted);font-size:15px;line-height:1.75;margin:0 0 4px}
-#photographers .photographer-friction-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
-#photographers .friction-card{min-width:0;padding:22px 21px 20px;border:1px solid var(--line);border-radius:14px;background:var(--card);display:flex;flex-direction:column;min-height:215px}
-#photographers .friction-number{font:10px var(--mono);color:var(--gold);letter-spacing:.08em}
-#photographers .friction-card h3{font-size:18px;margin:25px 0 8px;letter-spacing:-.02em}
-#photographers .friction-card p{font-size:13px;line-height:1.65;color:var(--muted);margin:0 0 18px}
-#photographers .friction-tag{margin-top:auto;align-self:flex-start;border:1px solid var(--line);border-radius:5px;padding:6px 8px;color:var(--muted);font:9px var(--mono);letter-spacing:.03em}
-#photographers .photographer-insight{display:flex;align-items:center;gap:16px;margin-top:18px;padding:18px 20px;border-radius:12px;background:var(--soft);border:1px solid var(--line)}
-#photographers .insight-symbol{width:32px;height:32px;flex:none;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:var(--warm);font-size:17px}
-#photographers .photographer-insight p{margin:0;font-size:14px;line-height:1.65;color:var(--muted)}
-#photographers .photographer-insight b{color:var(--ink);font-weight:600}
-#photographers .steps-section{padding-bottom:80px}
-#photographers .photographer-steps{border-top:1px solid var(--line)}
-#photographers .photographer-step{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(260px,.85fr);column-gap:clamp(30px,6vw,82px);row-gap:19px;padding:30px 0 34px;border-bottom:1px solid var(--line);align-items:center}
-#photographers .step-top{grid-column:1/-1;display:flex;align-items:center;gap:13px;color:var(--gold);font:11px var(--mono);letter-spacing:.06em}
-#photographers .step-rule{height:1px;background:var(--line);flex:1}
-#photographers .step-icon{font-size:16px;color:var(--ink);width:27px;height:27px;display:grid;place-items:center;border:1px solid var(--line);border-radius:50%}
-#photographers .photographer-step h3{font-size:clamp(21px,2.2vw,27px);line-height:1.22;letter-spacing:-.035em;margin:0 0 12px;max-width:600px}
-#photographers .photographer-step p{max-width:650px;color:var(--muted);font-size:14px;line-height:1.75;margin:0 0 11px}
-#photographers .photographer-step .step-outcome{color:var(--ink);font-weight:600;margin-top:15px}
-#photographers .step-visual{padding:14px;border:1px solid var(--line);border-radius:13px;background:var(--soft)}
-#photographers .mini-interface{max-width:360px;margin:auto;padding:13px;background:var(--card);border:1px solid var(--line);border-radius:9px}
-#photographers .mini-label,#photographers .board-kicker,#photographers .time-card-label{font:9px var(--mono);letter-spacing:.08em;color:var(--muted)}
-#photographers .mini-wedding{display:flex;align-items:center;gap:11px;padding:12px 0;border-bottom:1px solid var(--line)}
-#photographers .mini-wedding>i{width:44px;height:38px;border-radius:5px;background:linear-gradient(145deg,#c9bba1,#807865 56%,#303744);flex:none}
-#photographers .mini-wedding:nth-of-type(3)>i{background:linear-gradient(145deg,#a5a29a,#d5c6a9 55%,#5d6064)}
-#photographers .mini-wedding span{display:grid;gap:4px;min-width:0}
-#photographers .mini-wedding b{font-size:11px}
-#photographers .mini-wedding small{font-size:9px;color:var(--muted)}
-#photographers .mini-wedding button{margin-left:auto;flex:none;width:27px;height:27px;border:1px solid var(--line);border-radius:5px;background:transparent;color:var(--gold)}
-#photographers .mini-filter{margin-top:10px;padding:8px 10px;border:1px solid var(--line);border-radius:5px;font-size:10px;color:var(--muted);display:flex;gap:8px}
-#photographers .mini-filter b{font-weight:500;color:var(--ink)}#photographers .mini-filter span{margin-left:auto}
-#photographers .style-tags{display:flex;flex-wrap:wrap;gap:7px;margin:17px 0}
-#photographers .style-tags span{padding:7px 10px;border:1px solid var(--line);border-radius:5px;background:var(--soft);font-size:10px;color:var(--ink)}
-#photographers .style-board{min-height:190px;position:relative;overflow:hidden;padding:17px 20px;border-radius:13px;background:#202833;color:#f4f0e8;display:flex;flex-direction:column;justify-content:space-between}
-#photographers .style-board:after{content:"";position:absolute;width:190px;height:190px;border:1px solid rgba(220,189,129,.3);border-radius:50%;right:-58px;top:20px;box-shadow:0 0 0 20px rgba(220,189,129,.04),0 0 0 42px rgba(220,189,129,.035)}
-#photographers .board-kicker{color:#d4bd91;position:relative;z-index:1}
-#photographers .board-type{font:700 clamp(27px,3vw,38px)/.94 var(--sans);letter-spacing:.06em;position:relative;z-index:1}
-#photographers .board-type em{font:italic 400 25px var(--serif);letter-spacing:0;color:#d4bd91}
-#photographers .board-foot{position:relative;z-index:1;display:flex;justify-content:space-between;color:#c7cbd0;font:9px var(--mono);letter-spacing:.04em}
-#photographers .rights-card{padding:18px 18px 14px;border:1px solid var(--line);border-radius:13px;background:var(--card)}
-#photographers .rights-card-head{display:flex;align-items:center;gap:9px;font:9px var(--mono);letter-spacing:.06em;color:var(--muted);padding-bottom:15px;border-bottom:1px solid var(--line)}
-#photographers .rights-lock{width:22px;height:22px;display:grid;place-items:center;border-radius:50%;background:var(--soft);color:var(--gold);font-size:12px}
-#photographers .rights-state{margin-left:auto;color:var(--gold)}
-#photographers .rights-line{display:flex;justify-content:space-between;gap:10px;padding:12px 0;border-bottom:1px solid var(--line);font-size:10px;color:var(--muted)}
-#photographers .rights-line b{color:var(--ink);font-weight:500;text-align:right}
-#photographers .rights-card>small{display:block;padding-top:12px;color:var(--muted);font-size:10px}
-#photographers .time-card{min-height:190px;padding:18px;border:1px solid var(--line);border-radius:13px;background:var(--card);display:flex;flex-direction:column;justify-content:center}
-#photographers .time-card-value{font-size:39px;letter-spacing:-.05em;margin:10px 0;color:var(--ink)}
-#photographers .time-card-value span{float:right;font-size:17px;color:var(--gold)}
-#photographers .time-card-divider{height:1px;background:var(--line)}
-#photographers .time-card-caption{font-size:11px;line-height:1.55;color:var(--muted);padding-top:12px}
-#photographers .step-illustration{margin:0;min-width:0;padding:10px;border:1px solid var(--line);border-radius:13px;background:var(--soft)}
-#photographers .step-illustration img{display:block;width:100%;height:145px;object-fit:cover;object-position:center 45%;border-radius:8px}
-#photographers .step-illustration figcaption{display:flex;justify-content:space-between;gap:10px;padding:10px 2px 1px;font-size:9px;color:var(--muted)}
-#photographers .photographer-benefits{display:grid;grid-template-columns:.82fr 1.18fr;gap:clamp(30px,7vw,100px);align-items:start}
-#photographers .photographer-benefits h2{margin-bottom:17px}
-#photographers .benefit-copy>p{max-width:400px;color:var(--muted);font-size:14px;line-height:1.7;margin:0 0 23px}
-#photographers .benefit-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
-#photographers .benefit-list li{display:grid;grid-template-columns:35px 1fr;gap:10px;padding:14px 0;border-bottom:1px solid var(--line);font-size:13px;line-height:1.5}
-#photographers .benefit-list li span{font:10px var(--mono);color:var(--gold);padding-top:2px}
-#photographers .photographer-final-cta{display:grid;grid-template-columns:auto 1fr auto;gap:clamp(22px,4vw,54px);align-items:center;margin:clamp(58px,8vw,94px) 0 36px;padding:clamp(25px,4.5vw,52px);border-radius:16px;background:#202833;color:#f5f2eb}
-#photographers .final-cta-mark{display:flex;align-items:center;gap:9px;font:16px var(--serif);color:#d4bd91}
-#photographers .final-cta-mark i{width:30px;height:1px;background:#d4bd91}
-#photographers .photographer-final-cta .eyebrow{color:#d4bd91}
-#photographers .photographer-final-cta h2{font-size:clamp(25px,3.1vw,39px);max-width:670px;margin:11px 0}
-#photographers .photographer-final-cta p{max-width:650px;color:#c4c8cd;font-size:13px;line-height:1.7;margin:0}
-#photographers .photographer-final-cta .button{white-space:nowrap}
-@media(max-width:980px){#photographers .photographer-hero{grid-template-columns:minmax(0,1fr) minmax(300px,.82fr);gap:30px}#photographers .photographer-friction-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#photographers .photographer-step{column-gap:30px}#photographers .photographer-final-cta{grid-template-columns:auto 1fr}#photographers .photographer-final-cta>.button{grid-column:2;justify-self:start}}
-@media(max-width:720px){#photographers .photographer-hero{grid-template-columns:minmax(0,1fr);gap:30px;padding:42px 0 62px}#photographers .photographer-hero h1{font-size:clamp(39px,9vw,58px);max-width:620px}#photographers .photographer-hero-art{max-width:640px;width:100%;justify-self:center}#photographers .art-frame{aspect-ratio:1.25}#photographers .section-heading-row{grid-template-columns:minmax(0,1fr);gap:15px}#photographers .section-heading-row h2,#photographers .photographer-benefits h2{font-size:clamp(30px,7.2vw,42px)}#photographers .photographer-step{grid-template-columns:minmax(0,1fr);gap:16px;padding:25px 0 28px}#photographers .step-top{grid-column:1}#photographers .step-visual,#photographers .style-board,#photographers .rights-card,#photographers .time-card,#photographers .step-illustration{width:100%;max-width:520px;justify-self:center}#photographers .step-illustration img{height:clamp(145px,42vw,230px)}#photographers .photographer-benefits{grid-template-columns:1fr;gap:30px}#photographers .photographer-final-cta{grid-template-columns:minmax(0,1fr);gap:17px;padding:25px}#photographers .photographer-final-cta>.button{grid-column:1}#photographers .final-cta-mark{order:0}}
-@media(max-width:430px){#photographers .photographer-hero h1{font-size:clamp(36px,9.5vw,43px)}#photographers .photographer-actions{display:grid;grid-template-columns:minmax(0,1fr)}#photographers .photographer-actions .button{width:100%;justify-content:center}#photographers .photographer-friction-grid{gap:8px}#photographers .friction-card{padding:16px 14px;min-height:220px}#photographers .friction-card h3{font-size:16px;margin-top:20px}#photographers .friction-card p{font-size:12px}#photographers .photographer-insight{align-items:flex-start;padding:15px}#photographers .photographer-hero-art figcaption{font-size:10px}#photographers .rights-line{font-size:9px}}
-
-/* Photographer-page copy structure */
-#photographers .photographer-process{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
-#photographers .process-card{min-width:0;padding:22px 19px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
-#photographers .process-card>span{display:flex;justify-content:space-between;gap:8px;padding-bottom:13px;border-bottom:1px solid var(--line);font:10px var(--mono);color:var(--gold)}
-#photographers .process-card>span i{font-style:normal;color:var(--muted);text-align:right}
-#photographers .process-card h3{font-size:17px;margin:17px 0 8px;letter-spacing:-.02em}
-#photographers .process-card p{font-size:12px;line-height:1.65;color:var(--muted);margin:0}
-#photographers .criteria-layout{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-#photographers .criteria-panel{padding:23px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
-#photographers .criteria-kicker{font:10px var(--mono);letter-spacing:.08em;color:var(--gold)}
-#photographers .criteria-panel .style-tags{margin:18px 0 0}
-#photographers .criteria-list{list-style:none;margin:17px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
-#photographers .criteria-list li{padding:9px 11px;border:1px solid var(--line);border-radius:6px;background:var(--soft);font-size:12px}
-#photographers .criteria-outcome{margin:17px 0 0;font-size:14px;font-weight:650;color:var(--ink)}
-#photographers .rights-feature{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.8fr);gap:clamp(28px,6vw,76px);align-items:center}
-#photographers .rights-feature h3{font-size:21px;margin:0 0 18px}
-#photographers .rights-feature p{max-width:590px;color:var(--muted);font-size:13px;line-height:1.7;margin:17px 0 0}
-#photographers .rights-channels{display:flex;flex-wrap:wrap;gap:8px}
-#photographers .rights-channels span{padding:8px 11px;border:1px solid var(--line);border-radius:6px;background:var(--soft);font-size:11px}
-#photographers .cost-section{padding-top:42px}
-#photographers .cost-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,.65fr);gap:35px;align-items:center;padding:clamp(25px,4vw,46px);background:var(--card);border:1px solid var(--line);border-radius:16px}
-#photographers .cost-panel h2{font-size:clamp(29px,4vw,44px);line-height:1.1;letter-spacing:-.045em;margin:13px 0}
-#photographers .cost-panel p{max-width:600px;color:var(--muted);font-size:14px;line-height:1.7;margin:0}
-#photographers .cost-statement{position:relative;padding:20px 22px;border-left:1px solid var(--gold);background:var(--soft)}
-#photographers .cost-statement>span:first-child{font:9px var(--mono);letter-spacing:.08em;color:var(--muted)}
-#photographers .cost-statement strong{display:block;font-size:clamp(23px,3vw,32px);line-height:1.2;margin-top:12px;letter-spacing:-.04em}
-#photographers .cost-statement em{font-style:normal;color:var(--gold)}
-#photographers .cost-arrow{position:absolute;right:17px;top:15px;color:var(--gold)}
-#photographers .development-panel{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(28px,6vw,76px);align-items:center}
-#photographers .development-panel .step-illustration{width:100%}
-#photographers .development-panel h2{font-size:clamp(30px,4vw,48px);line-height:1.1;letter-spacing:-.045em;margin:12px 0}
-#photographers .development-panel p{max-width:560px;color:var(--muted);font-size:14px;line-height:1.75}
-@media(max-width:980px){#photographers .photographer-process{grid-template-columns:repeat(2,minmax(0,1fr))}#photographers .rights-feature{grid-template-columns:1fr 1fr;gap:25px}}
-@media(max-width:720px){#photographers .criteria-layout,#photographers .rights-feature,#photographers .cost-panel,#photographers .development-panel{grid-template-columns:1fr}#photographers .cost-panel{gap:22px}#photographers .cost-statement{max-width:480px;width:100%}#photographers .development-panel .step-illustration{max-width:560px;justify-self:center}}
-@media(max-width:430px){#photographers .photographer-process{grid-template-columns:1fr}#photographers .process-card{padding:18px}#photographers .criteria-list{gap:6px}#photographers .criteria-panel{padding:18px}#photographers .rights-feature{gap:20px}}
-
-/* Photographer page layout for the approved copy */
-#photographers .fp-page-title{font:600 clamp(18px,2vw,24px)/1.35 var(--sans);letter-spacing:-.025em;color:var(--text);margin:26px 0 0;padding:0 0 18px;border-bottom:1px solid var(--line)}
-#photographers .photographer-hero h2{font-size:clamp(22px,2.6vw,32px);line-height:1.2;letter-spacing:-.035em;max-width:620px;margin:14px 0 20px;color:var(--gold)}
-#photographers .photographer-hero-copy>.lead{max-width:620px;font-size:clamp(16px,1.45vw,19px);line-height:1.7}
-#photographers .fp-heading-row h2{font-size:clamp(30px,4vw,47px);line-height:1.1;letter-spacing:-.045em}
-#photographers .fp-principle{padding:22px 24px;border:1px solid var(--line);border-radius:13px;background:var(--card)}
-#photographers .fp-principle h3{font-size:clamp(19px,2.5vw,26px);margin:0;letter-spacing:-.03em}
-#photographers .fp-principle p{margin:8px 0 0;color:var(--text);font-size:15px;line-height:1.6}
-#photographers .fp-subheading{font-size:20px;margin:28px 0 13px;letter-spacing:-.02em}
-#photographers .fp-flow{list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:0;padding:0}
-#photographers .fp-flow li{display:grid;gap:15px;align-content:start;min-height:142px;padding:17px;border:1px solid var(--line);border-radius:10px;background:var(--soft)}
-#photographers .fp-flow li>span{font:11px var(--mono);color:var(--gold)}
-#photographers .fp-flow p{font-size:13px;line-height:1.6;margin:0;color:var(--text)}
-#photographers .fp-outcome{margin:18px 0 0;font-size:14px;font-weight:650;color:var(--ink)}
-#photographers .fp-lists-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-#photographers .fp-list-panel{padding:22px;border:1px solid var(--line);border-radius:13px;background:var(--card)}
-#photographers .fp-list-panel h3{font-size:18px;margin:0 0 15px}
-#photographers .fp-chip-list{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0}
-#photographers .fp-chip-list li{padding:8px 11px;border:1px solid var(--line);border-radius:6px;background:var(--soft);font-size:12px}
-#photographers .fp-criteria-list{list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin:0;padding:0}
-#photographers .fp-criteria-list li{padding:8px 10px;border-left:2px solid var(--gold);background:var(--soft);font-size:12px}
-#photographers .fp-rights-panel{display:block;padding:22px;border:1px solid var(--line);border-radius:13px;background:var(--card)}
-#photographers .fp-rights-panel h3{font-size:18px;margin:0 0 15px}
-#photographers .fp-rights-panel>div:first-child>p{color:var(--muted);font-size:13px;margin:17px 0 0}
-#photographers .fp-cost-panel{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:30px;align-items:center;padding:clamp(23px,4vw,40px);border:1px solid var(--line);border-radius:15px;background:var(--card)}
-#photographers .fp-cost-panel h2{font-size:clamp(28px,3.7vw,43px);line-height:1.1;letter-spacing:-.045em;margin:12px 0}
-#photographers .fp-cost-panel p{color:var(--muted);font-size:14px;line-height:1.7;max-width:600px;margin:0}
-#photographers .fp-cost-panel .fp-cost-line{border-left:1px solid var(--gold);padding:10px 0 10px 21px;color:var(--ink);font-size:17px;line-height:1.45;white-space:nowrap}
-#photographers .fp-cost-line em{font-style:normal;color:var(--gold);font-size:22px;font-weight:700}
-@media(max-width:980px){#photographers .fp-flow{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:720px){#photographers .fp-page-title{font-size:17px;padding-bottom:14px}#photographers .fp-heading-row{grid-template-columns:1fr;gap:13px}#photographers .fp-heading-row h2{font-size:clamp(29px,7vw,40px)}#photographers .fp-lists-grid,#photographers .fp-cost-panel{grid-template-columns:1fr}#photographers .fp-cost-panel{gap:22px}#photographers .fp-cost-panel .fp-cost-line{white-space:normal}}
-@media(max-width:430px){#photographers .fp-flow{grid-template-columns:1fr}#photographers .fp-flow li{min-height:auto}#photographers .fp-principle{padding:18px}#photographers .fp-criteria-list{gap:6px}}
-/* One consistent section rhythm and heading hierarchy for the photographers page */
-#photographers .photographer-section{padding:clamp(48px,6vw,76px) 0;border-bottom:1px solid var(--line)}
+#photographers .photographer-section{padding:clamp(46px,5.4vw,72px) 0;border-bottom:1px solid var(--line)}
 #photographers .fp-section-head{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr);gap:clamp(28px,6vw,76px);align-items:start}
 #photographers .fp-section-title{max-width:660px;min-width:0}
-#photographers .fp-section-title h2{font-size:clamp(30px,3.4vw,42px);line-height:1.12;letter-spacing:-.045em;margin:11px 0 0;max-width:660px}
-#photographers .fp-section-copy{max-width:560px;margin:4px 0 0;color:var(--text);font-size:16px;line-height:1.72}
+#photographers .fp-section-title h2{font:500 clamp(29px,3.25vw,40px)/1.16 var(--serif);letter-spacing:-.035em;margin:11px 0 0;max-width:660px;color:var(--ink)}
+#photographers .fp-section-copy{max-width:560px;margin:4px 0 0;color:var(--text);font:400 15px/1.78 var(--sans)}
 #photographers .fp-section-copy p{margin:0 0 20px}
 #photographers .fp-principle{margin:32px 0 0;padding:22px 24px;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:12px;background:var(--card)}
 #photographers .fp-subsection{margin-top:34px;padding-top:24px;border-top:1px solid var(--line)}
-#photographers .fp-subsection h3,#photographers .fp-principle h3{font-size:clamp(19px,2vw,23px);line-height:1.25;letter-spacing:-.025em;font-weight:650;margin:0 0 15px;color:var(--ink)}
-#photographers .fp-principle p{font-size:16px;line-height:1.6;color:var(--text);margin:0}
+#photographers .fp-subsection h3,#photographers .fp-principle h3{font:600 18px/1.35 var(--sans);letter-spacing:-.015em;margin:0 0 15px;color:var(--ink)}
+#photographers .fp-principle p{font:400 15px/1.65 var(--sans);color:var(--text);margin:0}
 #photographers .fp-flow{list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:0;padding:0}
 #photographers .fp-flow li{display:grid;align-content:start;gap:13px;min-width:0;min-height:136px;padding:17px;border:1px solid var(--line);border-radius:10px;background:var(--card)}
 #photographers .fp-flow li>span{font:11px var(--mono);color:var(--gold);letter-spacing:.08em}
-#photographers .fp-flow p{font-size:14px;line-height:1.6;color:var(--text);margin:0}
+#photographers .fp-flow p{font:400 13px/1.65 var(--sans);color:var(--text);margin:0}
 #photographers .fp-two-col{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(18px,3vw,32px)}
 #photographers .fp-two-col .fp-subsection{margin-top:32px}
 #photographers .fp-chip-list{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0}
-#photographers .fp-chip-list li{padding:8px 11px;border:1px solid var(--line);border-radius:6px;background:var(--card);font-size:13px;color:var(--text)}
+#photographers .fp-chip-list li{padding:8px 11px;border:1px solid var(--line);border-radius:5px;background:var(--card);font:500 12px/1.4 var(--sans);color:var(--text)}
 #photographers .fp-criteria-list{list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 18px;margin:0;padding:0}
-#photographers .fp-criteria-list li{padding:10px 0;border-bottom:1px solid var(--line);font-size:14px;color:var(--text)}
-#photographers .fp-section-foot{margin:22px 0 0;color:var(--ink);font-size:15px;font-weight:650}
+#photographers .fp-criteria-list li{padding:10px 0;border-bottom:1px solid var(--line);font:400 13px/1.5 var(--sans);color:var(--text)}
+#photographers .fp-section-foot{margin:22px 0 0;color:var(--ink);font:600 14px/1.6 var(--sans)}
 #photographers .fp-subsection .fp-section-foot{margin-top:17px}
 #photographers .fp-benefits-head{align-items:start}
 #photographers .benefit-list{list-style:none;display:grid;gap:0;margin:0;padding:0;border-top:1px solid var(--line)}
-#photographers .benefit-list li{position:relative;padding:13px 0 13px 22px;border-bottom:1px solid var(--line);font-size:15px;line-height:1.5;color:var(--text)}
+#photographers .benefit-list li{position:relative;padding:13px 0 13px 22px;border-bottom:1px solid var(--line);font:400 14px/1.55 var(--sans);color:var(--text)}
 #photographers .benefit-list li:before{content:"";position:absolute;left:2px;top:21px;width:6px;height:6px;border-radius:50%;background:var(--gold)}
 #photographers .photographer-final-cta{border-bottom:0}
 #photographers .photographer-final-cta .fp-section-head{padding:clamp(24px,4vw,40px);border:1px solid var(--line);border-radius:14px;background:var(--card);align-items:center}
 #photographers .photographer-final-cta .fp-section-copy{margin:0}
 #photographers .photographer-final-cta .button{border-radius:8px}
-@media(max-width:760px){#photographers .fp-section-head{grid-template-columns:minmax(0,1fr);gap:17px}#photographers .fp-section-copy{max-width:680px;margin:0}#photographers .fp-flow{grid-template-columns:repeat(2,minmax(0,1fr))}#photographers .fp-benefits-head{gap:14px}}
-@media(max-width:480px){#photographers .photographer-section{padding:42px 0}#photographers .fp-section-title h2{font-size:clamp(28px,8vw,36px)}#photographers .fp-section-copy{font-size:15px}#photographers .fp-flow,#photographers .fp-two-col{grid-template-columns:minmax(0,1fr)}#photographers .fp-flow li{min-height:auto}#photographers .fp-two-col .fp-subsection:first-child{margin-top:20px}#photographers .fp-subsection{margin-top:25px}#photographers .photographer-final-cta .fp-section-head{padding:22px}}
+@media(max-width:900px){#photographers .photographer-hero{grid-template-columns:minmax(0,1fr) minmax(0,.9fr);gap:28px}#photographers .fp-section-head{grid-template-columns:minmax(0,1fr) minmax(0,.95fr);gap:28px}}
+@media(max-width:760px){#photographers .photographer-hero{grid-template-columns:minmax(0,1fr);gap:28px;padding:40px 0 52px}#photographers .photographer-hero h1{font-size:clamp(40px,8vw,58px)}#photographers .photographer-hero-art{width:100%;max-width:620px;justify-self:center}#photographers .fp-section-head{grid-template-columns:minmax(0,1fr);gap:14px}#photographers .fp-section-copy{max-width:680px;margin:0}#photographers .fp-flow{grid-template-columns:repeat(2,minmax(0,1fr))}#photographers .fp-benefits-head{gap:14px}}
+@media(max-width:560px){#photographers .photographer-section{padding:38px 0}#photographers .photographer-hero h1{font-size:clamp(37px,9vw,48px)}#photographers .fp-section-title h2{font-size:clamp(28px,7.6vw,35px)}#photographers .fp-section-copy{font-size:14px}#photographers .fp-flow,#photographers .fp-two-col{grid-template-columns:minmax(0,1fr)}#photographers .fp-flow li{min-height:auto}#photographers .fp-subsection{margin-top:25px;padding-top:20px}#photographers .fp-two-col .fp-subsection:first-child{margin-top:20px}#photographers .photographer-actions{display:grid;grid-template-columns:minmax(0,1fr)}#photographers .photographer-actions .button{width:100%;justify-content:center}#photographers .photographer-final-cta .fp-section-head{padding:20px}}
 
 </style></head><body>
 <header class="header"><div class="shell head-inner"><button class="brand" onclick="showPage('home')" aria-label="WedConnect Startseite"><span class="brandmark">W</span>WedConnect</button><nav class="nav" id="publicNav" aria-label="Hauptnavigation"><button class="active" data-page="photographers" onclick="showPage('photographers')">Für Fotografen</button><button data-page="couples" onclick="showPage('couples')">Für Hochzeitspaare</button><button data-page="app" onclick="showPage('app')">Demo ansehen</button></nav><button class="mobile-menu-toggle" id="publicMenuToggle" type="button" aria-controls="publicNav" aria-expanded="false">Menü <span aria-hidden="true">☰</span></button><button class="button small" onclick="showPage('app')">Demo öffnen <span>↗</span></button></div></header>
