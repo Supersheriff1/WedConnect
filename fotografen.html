@@ -373,6 +373,39 @@ main,.view,.shell,.app-main{min-width:0}
 @media(max-width:980px){#photographers .photographer-process{grid-template-columns:repeat(2,minmax(0,1fr))}#photographers .rights-feature{grid-template-columns:1fr 1fr;gap:25px}}
 @media(max-width:720px){#photographers .criteria-layout,#photographers .rights-feature,#photographers .cost-panel,#photographers .development-panel{grid-template-columns:1fr}#photographers .cost-panel{gap:22px}#photographers .cost-statement{max-width:480px;width:100%}#photographers .development-panel .step-illustration{max-width:560px;justify-self:center}}
 @media(max-width:430px){#photographers .photographer-process{grid-template-columns:1fr}#photographers .process-card{padding:18px}#photographers .criteria-list{gap:6px}#photographers .criteria-panel{padding:18px}#photographers .rights-feature{gap:20px}}
+
+/* Photographer page layout for the approved copy */
+#photographers .fp-page-title{font:600 clamp(18px,2vw,24px)/1.35 var(--sans);letter-spacing:-.025em;color:var(--text);margin:26px 0 0;padding:0 0 18px;border-bottom:1px solid var(--line)}
+#photographers .photographer-hero h2{font-size:clamp(38px,5.2vw,66px);line-height:1.04;letter-spacing:-.055em;max-width:760px;margin:18px 0 23px}
+#photographers .photographer-hero-copy>.lead{max-width:620px;font-size:clamp(16px,1.45vw,19px);line-height:1.7}
+#photographers .fp-heading-row h2{font-size:clamp(30px,4vw,47px);line-height:1.1;letter-spacing:-.045em}
+#photographers .fp-principle{padding:22px 24px;border:1px solid var(--line);border-radius:13px;background:var(--card)}
+#photographers .fp-principle h3{font-size:clamp(19px,2.5vw,26px);margin:0;letter-spacing:-.03em}
+#photographers .fp-principle p{margin:8px 0 0;color:var(--text);font-size:15px;line-height:1.6}
+#photographers .fp-subheading{font-size:20px;margin:28px 0 13px;letter-spacing:-.02em}
+#photographers .fp-flow{list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:0;padding:0}
+#photographers .fp-flow li{display:grid;gap:15px;align-content:start;min-height:142px;padding:17px;border:1px solid var(--line);border-radius:10px;background:var(--soft)}
+#photographers .fp-flow li>span{font:11px var(--mono);color:var(--gold)}
+#photographers .fp-flow p{font-size:13px;line-height:1.6;margin:0;color:var(--text)}
+#photographers .fp-outcome{margin:18px 0 0;font-size:14px;font-weight:650;color:var(--ink)}
+#photographers .fp-lists-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+#photographers .fp-list-panel{padding:22px;border:1px solid var(--line);border-radius:13px;background:var(--card)}
+#photographers .fp-list-panel h3{font-size:18px;margin:0 0 15px}
+#photographers .fp-chip-list{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0}
+#photographers .fp-chip-list li{padding:8px 11px;border:1px solid var(--line);border-radius:6px;background:var(--soft);font-size:12px}
+#photographers .fp-criteria-list{list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin:0;padding:0}
+#photographers .fp-criteria-list li{padding:8px 10px;border-left:2px solid var(--gold);background:var(--soft);font-size:12px}
+#photographers .fp-rights-panel{display:block;padding:22px;border:1px solid var(--line);border-radius:13px;background:var(--card)}
+#photographers .fp-rights-panel h3{font-size:18px;margin:0 0 15px}
+#photographers .fp-rights-panel>div:first-child>p{color:var(--muted);font-size:13px;margin:17px 0 0}
+#photographers .fp-cost-panel{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:30px;align-items:center;padding:clamp(23px,4vw,40px);border:1px solid var(--line);border-radius:15px;background:var(--card)}
+#photographers .fp-cost-panel h2{font-size:clamp(28px,3.7vw,43px);line-height:1.1;letter-spacing:-.045em;margin:12px 0}
+#photographers .fp-cost-panel p{color:var(--muted);font-size:14px;line-height:1.7;max-width:600px;margin:0}
+#photographers .fp-cost-panel .fp-cost-line{border-left:1px solid var(--gold);padding:10px 0 10px 21px;color:var(--ink);font-size:17px;line-height:1.45;white-space:nowrap}
+#photographers .fp-cost-line em{font-style:normal;color:var(--gold);font-size:22px;font-weight:700}
+@media(max-width:980px){#photographers .fp-flow{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){#photographers .fp-page-title{font-size:17px;padding-bottom:14px}#photographers .fp-heading-row{grid-template-columns:1fr;gap:13px}#photographers .fp-heading-row h2{font-size:clamp(29px,7vw,40px)}#photographers .fp-lists-grid,#photographers .fp-cost-panel{grid-template-columns:1fr}#photographers .fp-cost-panel{gap:22px}#photographers .fp-cost-panel .fp-cost-line{white-space:normal}}
+@media(max-width:430px){#photographers .fp-flow{grid-template-columns:1fr}#photographers .fp-flow li{min-height:auto}#photographers .fp-principle{padding:18px}#photographers .fp-criteria-list{gap:6px}}
 </style></head><body>
 <header class="header"><div class="shell head-inner"><button class="brand" onclick="showPage('home')" aria-label="WedConnect Startseite"><span class="brandmark">W</span>WedConnect</button><nav class="nav" id="publicNav" aria-label="Hauptnavigation"><button class="active" data-page="photographers" onclick="showPage('photographers')">Für Fotografen</button><button data-page="couples" onclick="showPage('couples')">Für Hochzeitspaare</button><button data-page="app" onclick="showPage('app')">Demo ansehen</button></nav><button class="mobile-menu-toggle" id="publicMenuToggle" type="button" aria-controls="publicNav" aria-expanded="false">Menü <span aria-hidden="true">☰</span></button><button class="button small" onclick="showPage('app')">Demo öffnen <span>↗</span></button></div></header>
 <main>
