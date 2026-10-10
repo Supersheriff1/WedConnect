@@ -7,6 +7,7 @@ WedConnect bringt Hochzeitspaare und Hochzeitsfotografen zusammen, wenn Hochzeit
 Die aktuelle Demo steht in `index.html` und `prototype/index.html` im Hauptzweig. Der visuell freigegebene Ausgangsstand bleibt unverändert im Branch [baseline/2026-10-10-pairing-demo](https://github.com/Supersheriff1/WedConnect/tree/baseline/2026-10-10-pairing-demo).
 
 - [Aktuelle Demo direkt öffnen](https://github.com/Supersheriff1/WedConnect/blob/main/index.html)
+- [Fotografen-Seite als direkter Einstieg](https://github.com/Supersheriff1/WedConnect/blob/main/fotografen.html)
 - [Demo im Projektordner](https://github.com/Supersheriff1/WedConnect/blob/main/prototype/index.html)
 - [WedConnect Design Bible v1.1 mit Illustrationssystem](https://github.com/Supersheriff1/WedConnect/blob/main/docs/DESIGN_BIBLE.md)
 - [Projektziele und aktueller Status](https://github.com/Supersheriff1/WedConnect/blob/feature/fotografen-page/docs/PROJECT_STATUS.md)
