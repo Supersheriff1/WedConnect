@@ -337,6 +337,42 @@ main,.view,.shell,.app-main{min-width:0}
 @media(max-width:980px){#photographers .photographer-hero{grid-template-columns:minmax(0,1fr) minmax(300px,.82fr);gap:30px}#photographers .photographer-friction-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#photographers .photographer-step{column-gap:30px}#photographers .photographer-final-cta{grid-template-columns:auto 1fr}#photographers .photographer-final-cta>.button{grid-column:2;justify-self:start}}
 @media(max-width:720px){#photographers .photographer-hero{grid-template-columns:minmax(0,1fr);gap:30px;padding:42px 0 62px}#photographers .photographer-hero h1{font-size:clamp(39px,9vw,58px);max-width:620px}#photographers .photographer-hero-art{max-width:640px;width:100%;justify-self:center}#photographers .art-frame{aspect-ratio:1.25}#photographers .section-heading-row{grid-template-columns:minmax(0,1fr);gap:15px}#photographers .section-heading-row h2,#photographers .photographer-benefits h2{font-size:clamp(30px,7.2vw,42px)}#photographers .photographer-step{grid-template-columns:minmax(0,1fr);gap:16px;padding:25px 0 28px}#photographers .step-top{grid-column:1}#photographers .step-visual,#photographers .style-board,#photographers .rights-card,#photographers .time-card,#photographers .step-illustration{width:100%;max-width:520px;justify-self:center}#photographers .step-illustration img{height:clamp(145px,42vw,230px)}#photographers .photographer-benefits{grid-template-columns:1fr;gap:30px}#photographers .photographer-final-cta{grid-template-columns:minmax(0,1fr);gap:17px;padding:25px}#photographers .photographer-final-cta>.button{grid-column:1}#photographers .final-cta-mark{order:0}}
 @media(max-width:430px){#photographers .photographer-hero h1{font-size:clamp(36px,9.5vw,43px)}#photographers .photographer-actions{display:grid;grid-template-columns:minmax(0,1fr)}#photographers .photographer-actions .button{width:100%;justify-content:center}#photographers .photographer-friction-grid{gap:8px}#photographers .friction-card{padding:16px 14px;min-height:220px}#photographers .friction-card h3{font-size:16px;margin-top:20px}#photographers .friction-card p{font-size:12px}#photographers .photographer-insight{align-items:flex-start;padding:15px}#photographers .photographer-hero-art figcaption{font-size:10px}#photographers .rights-line{font-size:9px}}
+
+/* Photographer-page copy structure */
+#photographers .photographer-process{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+#photographers .process-card{min-width:0;padding:22px 19px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+#photographers .process-card>span{display:flex;justify-content:space-between;gap:8px;padding-bottom:13px;border-bottom:1px solid var(--line);font:10px var(--mono);color:var(--gold)}
+#photographers .process-card>span i{font-style:normal;color:var(--muted);text-align:right}
+#photographers .process-card h3{font-size:17px;margin:17px 0 8px;letter-spacing:-.02em}
+#photographers .process-card p{font-size:12px;line-height:1.65;color:var(--muted);margin:0}
+#photographers .criteria-layout{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+#photographers .criteria-panel{padding:23px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+#photographers .criteria-kicker{font:10px var(--mono);letter-spacing:.08em;color:var(--gold)}
+#photographers .criteria-panel .style-tags{margin:18px 0 0}
+#photographers .criteria-list{list-style:none;margin:17px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+#photographers .criteria-list li{padding:9px 11px;border:1px solid var(--line);border-radius:6px;background:var(--soft);font-size:12px}
+#photographers .criteria-outcome{margin:17px 0 0;font-size:14px;font-weight:650;color:var(--ink)}
+#photographers .rights-feature{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.8fr);gap:clamp(28px,6vw,76px);align-items:center}
+#photographers .rights-feature h3{font-size:21px;margin:0 0 18px}
+#photographers .rights-feature p{max-width:590px;color:var(--muted);font-size:13px;line-height:1.7;margin:17px 0 0}
+#photographers .rights-channels{display:flex;flex-wrap:wrap;gap:8px}
+#photographers .rights-channels span{padding:8px 11px;border:1px solid var(--line);border-radius:6px;background:var(--soft);font-size:11px}
+#photographers .cost-section{padding-top:42px}
+#photographers .cost-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,.65fr);gap:35px;align-items:center;padding:clamp(25px,4vw,46px);background:var(--card);border:1px solid var(--line);border-radius:16px}
+#photographers .cost-panel h2{font-size:clamp(29px,4vw,44px);line-height:1.1;letter-spacing:-.045em;margin:13px 0}
+#photographers .cost-panel p{max-width:600px;color:var(--muted);font-size:14px;line-height:1.7;margin:0}
+#photographers .cost-statement{position:relative;padding:20px 22px;border-left:1px solid var(--gold);background:var(--soft)}
+#photographers .cost-statement>span:first-child{font:9px var(--mono);letter-spacing:.08em;color:var(--muted)}
+#photographers .cost-statement strong{display:block;font-size:clamp(23px,3vw,32px);line-height:1.2;margin-top:12px;letter-spacing:-.04em}
+#photographers .cost-statement em{font-style:normal;color:var(--gold)}
+#photographers .cost-arrow{position:absolute;right:17px;top:15px;color:var(--gold)}
+#photographers .development-panel{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(28px,6vw,76px);align-items:center}
+#photographers .development-panel .step-illustration{width:100%}
+#photographers .development-panel h2{font-size:clamp(30px,4vw,48px);line-height:1.1;letter-spacing:-.045em;margin:12px 0}
+#photographers .development-panel p{max-width:560px;color:var(--muted);font-size:14px;line-height:1.75}
+@media(max-width:980px){#photographers .photographer-process{grid-template-columns:repeat(2,minmax(0,1fr))}#photographers .rights-feature{grid-template-columns:1fr 1fr;gap:25px}}
+@media(max-width:720px){#photographers .criteria-layout,#photographers .rights-feature,#photographers .cost-panel,#photographers .development-panel{grid-template-columns:1fr}#photographers .cost-panel{gap:22px}#photographers .cost-statement{max-width:480px;width:100%}#photographers .development-panel .step-illustration{max-width:560px;justify-self:center}}
+@media(max-width:430px){#photographers .photographer-process{grid-template-columns:1fr}#photographers .process-card{padding:18px}#photographers .criteria-list{gap:6px}#photographers .criteria-panel{padding:18px}#photographers .rights-feature{gap:20px}}
 </style></head><body>
 <header class="header"><div class="shell head-inner"><button class="brand" onclick="showPage('home')" aria-label="WedConnect Startseite"><span class="brandmark">W</span>WedConnect</button><nav class="nav" id="publicNav" aria-label="Hauptnavigation"><button data-page="photographers" onclick="showPage('photographers')">Für Fotografen</button><button data-page="couples" onclick="showPage('couples')">Für Hochzeitspaare</button><button data-page="app" onclick="showPage('app')">Demo ansehen</button></nav><button class="mobile-menu-toggle" id="publicMenuToggle" type="button" aria-controls="publicNav" aria-expanded="false">Menü <span aria-hidden="true">☰</span></button><button class="button small" onclick="showPage('app')">Demo öffnen <span>↗</span></button></div></header>
 <main>
@@ -351,7 +387,7 @@ main,.view,.shell,.app-main{min-width:0}
     <div class="eyebrow"><span class="eyebrow-line"></span>Für Fotografen <span class="eyebrow-dot">·</span> Portfolio mit Absicht</div>
     <h1 id="photographer-title">Erweitere dein Portfolio mit Hochzeiten, die <em>zu deinem Stil passen.</em></h1>
     <p class="lead">WedConnect zeigt dir viele Hochzeiten. Du entscheidest selbst, welche davon zu deiner Ästhetik, deinem Anspruch und deiner Bildsprache passen.</p>
-    <p class="photographer-hero-note">Gezielte Auswahl statt Zufall. Keine Kosten. Keine gestellten Szenen.</p>
+    <p class="photographer-hero-note">Gezielt statt zufällig. Keine Kosten. Keine gestellten Szenen.</p>
     <div class="hero-actions photographer-actions">
      <button class="button" onclick="openSignup('photographer')">Profil erstellen <span aria-hidden="true">↗</span></button>
      <button class="button secondary" onclick="showPage('app');appNavigate('discover')">Hochzeiten entdecken <span aria-hidden="true">→</span></button>
@@ -367,48 +403,80 @@ main,.view,.shell,.app-main{min-width:0}
   <section class="photographer-section" aria-labelledby="why-photographers">
    <div class="section-heading-row">
     <div><div class="eyebrow">Warum WedConnect</div><h2 id="why-photographers">Ein starkes Portfolio entsteht durch bewusste Auswahl.</h2></div>
-    <p class="section-intro">Genau das war bisher schwierig: Viele Wege kosten Geld, Zeit oder liefern Bilder, die nicht zu echten Hochzeiten gehören.</p>
+    <p class="section-intro">Workshops sind teuer. Styled Shoots künstlich. Selbst organisierte Shootings kosten Zeit und Geld. Viele Hochzeiten dürfen nicht veröffentlicht werden. WedConnect löst dieses Problem.</p>
    </div>
    <div class="photographer-friction-grid">
-    <article class="friction-card"><span class="friction-number">01</span><h3>Workshops</h3><p>Hochwertig, aber oft teuer und nur begrenzt auf den eigenen Stil zugeschnitten.</p><span class="friction-tag">Hohe Investition</span></article>
-    <article class="friction-card"><span class="friction-number">02</span><h3>Styled Shoots</h3><p>Visuell geplant, aber inszeniert. Sie zeigen nicht den echten Ablauf einer Hochzeit.</p><span class="friction-tag">Gestellte Szenen</span></article>
-    <article class="friction-card"><span class="friction-number">03</span><h3>Eigene Shootings</h3><p>Location, Kleidung, Blumen und Models zu koordinieren kostet Zeit und Geld.</p><span class="friction-tag">Viel Organisation</span></article>
-    <article class="friction-card"><span class="friction-number">04</span><h3>Reale Aufträge</h3><p>Viele Hochzeiten lassen sich wegen fehlender Freigaben nicht im Portfolio zeigen.</p><span class="friction-tag">Rechte ungeklärt</span></article>
+    <article class="friction-card"><span class="friction-number">01</span><h3>Workshops</h3><p>Hohe Investition für Bilder, die nicht immer zu deinem eigenen Stil passen.</p><span class="friction-tag">Teuer</span></article>
+    <article class="friction-card"><span class="friction-number">02</span><h3>Styled Shoots</h3><p>Aufwendig arrangiert und künstlich – fern vom Ablauf einer echten Hochzeit.</p><span class="friction-tag">Inszeniert</span></article>
+    <article class="friction-card"><span class="friction-number">03</span><h3>Eigene Shootings</h3><p>Location, Kleidung, Blumen und Models kosten Zeit und Geld.</p><span class="friction-tag">Viel Organisation</span></article>
+    <article class="friction-card"><span class="friction-number">04</span><h3>Reale Aufträge</h3><p>Oft fehlen klare Freigaben, um Bilder später zu veröffentlichen.</p><span class="friction-tag">Rechte ungeklärt</span></article>
    </div>
-   <div class="photographer-insight"><span class="insight-symbol" aria-hidden="true">↗</span><p>WedConnect bringt dich mit Paaren zusammen, deren Hochzeit zu deiner Arbeit passen kann. <b>Du entscheidest selbst, wo du Interesse zeigst.</b></p></div>
   </section>
 
-  <section class="photographer-section steps-section" aria-labelledby="portfolio-steps">
+  <section class="photographer-section steps-section" aria-labelledby="how-photographers">
    <div class="section-heading-row">
-    <div><div class="eyebrow">Wie WedConnect dein Portfolio stärkt</div><h2 id="portfolio-steps">Du behältst die Auswahl in der Hand.</h2></div>
-    <p class="section-intro">Entdecke viele Hochzeiten und entscheide in deinem Tempo, welche Begegnung für deine Bildsprache relevant ist.</p>
+    <div><div class="eyebrow">Wie WedConnect funktioniert</div><h2 id="how-photographers">Viele Optionen. Matches nur bei beidseitigem Interesse.</h2></div>
+    <p class="section-intro">WedConnect zeigt dir eine breite Auswahl an Hochzeiten. Du entscheidest, welche davon zu deinem Portfolio passen.</p>
    </div>
-   <div class="photographer-steps">
-    <article class="photographer-step"><div class="step-top"><span>01</span><span class="step-rule"></span><span class="step-icon" aria-hidden="true">⌕</span></div><div><h3>Du siehst viele Hochzeiten – und wählst selbst aus</h3><p>Du siehst Paare, Locations, Stilrichtungen und geplante Abläufe. So erkennst du, ob eine Hochzeit visuell zu deiner Arbeit passt. Zeig Interesse, wenn es für dich relevant ist. Ein Match entsteht nur bei beidseitigem Interesse.</p><p class="step-outcome">Du bestimmst, was du fotografieren möchtest – und was nicht.</p></div><div class="step-visual"><div class="mini-interface"><span class="mini-label">ENTDECKEN / HOCHZEITEN</span><div class="mini-wedding"><i></i><span><b>Villa am See</b><small>Modern · Editorial · 06 / 2027</small></span><button aria-label="Hochzeit merken">＋</button></div><div class="mini-wedding"><i></i><span><b>Stadtpalais</b><small>Elegant · Urban · 08 / 2027</small></span><button aria-label="Hochzeit merken">＋</button></div><div class="mini-filter">Stil <b>Editorial</b><span>⌄</span></div></div></div></article>
-    <article class="photographer-step"><div class="step-top"><span>02</span><span class="step-rule"></span><span class="step-icon" aria-hidden="true">✳</span></div><div><h3>Du fotografierst Hochzeiten, die zu deinem Stil passen</h3><p>Baue dein Portfolio gezielt in den Bereichen aus, die du zeigen möchtest:</p><div class="style-tags" aria-label="Hochzeitsstile"><span>Fine Art</span><span>Editorial</span><span>Modern</span><span>Elegant</span><span>Boho</span><span>Urban</span><span>Destination</span></div><p>Filtere nach Location, Stil, Ablauf, Paarprofil, Bildwünschen, Atmosphäre und Ästhetik. So entwickelst du dein Portfolio bewusst und strategisch weiter.</p></div><div class="style-board"><span class="board-kicker">DEIN BLICKFELD</span><div class="board-type">SELECT<br><em>your</em><br>FRAME</div><div class="board-foot"><span>Stil vor Zufall</span><span>WC—02</span></div></div></article>
-    <article class="photographer-step rights-step"><div class="step-top"><span>03</span><span class="step-rule"></span><span class="step-icon" aria-hidden="true">↗</span></div><div><h3>Du klärst Nutzungsrechte bewusst mit dem Paar</h3><p>Ein WedConnect-Match ist der Anfang eines Gesprächs, keine automatische Rechtefreigabe. Wenn du Bilder später für Portfolio, Website, Social Media oder Werbung verwenden möchtest, besprecht ihr das gesondert und ausdrücklich.</p><p class="step-outcome">Umfang, Medien und Zeitraum werden klar vereinbart und dokumentiert.</p></div><div class="rights-card"><div class="rights-card-head"><span class="rights-lock" aria-hidden="true">✓</span><span>VEREINBARUNG</span><span class="rights-state">DOKUMENTIERT</span></div><div class="rights-line"><span>Portfolio / Website</span><b>gesondert freigeben</b></div><div class="rights-line"><span>Social Media / Werbung</span><b>Umfang festhalten</b></div><small>Transparenz für beide Seiten</small></div></article>
-    <article class="photographer-step"><div class="step-top"><span>04</span><span class="step-rule"></span><span class="step-icon" aria-hidden="true">↘</span></div><div><h3>Hochwertiges Portfolio-Material ohne teure Workshops</h3><p>WedConnect macht passende Hochzeiten auffindbar, ohne dass du erst ein Workshop- oder Styled-Shoot-Budget einplanen musst.</p><p class="step-outcome">Du investierst deine Zeit, nicht dein Budget.</p></div><div class="time-card"><span class="time-card-label">DEIN EINSATZ</span><div class="time-card-value">Zeit<span>↗</span></div><div class="time-card-divider"></div><div class="time-card-caption">Kein Workshop-Budget<br>für den Zugang zur Plattform</div></div></article>
-    <article class="photographer-step"><div class="step-top"><span>05</span><span class="step-rule"></span><span class="step-icon" aria-hidden="true">⌁</span></div><div><h3>Du entwickelst deinen Stil weiter</h3><p>Passende Paare, klare Ästhetik und hochwertige Locations geben dir neue Impulse. Mit jeder bewusst gewählten Zusammenarbeit kannst du deine Bildsprache schärfen und dein Portfolio gezielt ausbauen.</p><p class="step-outcome">Mehr Arbeiten, die zeigen, wofür du stehen möchtest.</p></div><figure class="step-illustration"><img data-brand-illustration alt="WedConnect-Illustration: Fotograf und Hochzeitspaar bei einer gemeinsamen Reportage" loading="lazy"><figcaption><span>Ein gemeinsamer Blick auf den Tag.</span><span>WC—05</span></figcaption></figure></article>
+   <div class="photographer-process">
+    <article class="process-card"><span>01 <i>ENTDECKEN</i></span><h3>Paare und Hochzeiten ansehen</h3><p>Entdecke Paare, Locations, Stilrichtungen und geplante Abläufe.</p></article>
+    <article class="process-card"><span>02 <i>EINSCHÄTZEN</i></span><h3>Passung erkennen</h3><p>Prüfe, ob die Hochzeit visuell zu deiner Bildsprache passt.</p></article>
+    <article class="process-card"><span>03 <i>INTERESSE ZEIGEN</i></span><h3>Selbst auswählen</h3><p>Zeig Interesse, wenn die Zusammenarbeit für dich relevant ist.</p></article>
+    <article class="process-card"><span>04 <i>MATCH</i></span><h3>Gemeinsam ins Gespräch kommen</h3><p>Ein Match entsteht nur, wenn das Paar ebenfalls Interesse hat.</p></article>
+   </div>
+   <div class="photographer-insight"><span class="insight-symbol" aria-hidden="true">↗</span><p><b>Du bestimmst, was du fotografieren möchtest – und was nicht.</b></p></div>
+  </section>
+
+  <section class="photographer-section" aria-labelledby="criteria-title">
+   <div class="section-heading-row">
+    <div><div class="eyebrow">Deine Auswahl</div><h2 id="criteria-title">Du wählst nach deinen Kriterien.</h2></div>
+    <p class="section-intro">Fotografen suchen nicht beliebige Hochzeiten, sondern jene, die ihr Portfolio gezielt weiterentwickeln.</p>
+   </div>
+   <div class="criteria-layout">
+    <div class="criteria-panel"><span class="criteria-kicker">STILRICHTUNGEN</span><div class="style-tags"><span>Fine Art</span><span>Editorial</span><span>Modern</span><span>Elegant</span><span>Boho</span><span>Urban</span><span>Destination Weddings</span></div></div>
+    <div class="criteria-panel"><span class="criteria-kicker">AUSWAHLKRITERIEN</span><ul class="criteria-list"><li>Location</li><li>Stil</li><li>Ablauf</li><li>Paarprofil</li><li>Bildwünsche</li><li>Atmosphäre</li><li>Ästhetik</li></ul></div>
+   </div>
+   <p class="criteria-outcome">Du baust dein Portfolio bewusst und strategisch auf.</p>
+  </section>
+
+  <section class="photographer-section" aria-labelledby="rights-title">
+   <div class="section-heading-row">
+    <div><div class="eyebrow">Nutzungsrechte</div><h2 id="rights-title">Bilder zeigen können – mit klarer Zustimmung.</h2></div>
+    <p class="section-intro">Viele Fotografen begleiten Hochzeiten, dürfen die Bilder aber nicht verwenden. WedConnect bringt dich mit Paaren zusammen, die bereit sind, dir Nutzungsrechte zu geben.</p>
+   </div>
+   <div class="rights-feature">
+    <div><h3>Diese Nutzungsbereiche können vereinbart werden</h3><div class="rights-channels"><span>Website</span><span>Portfolio</span><span>Social Media</span><span>Werbung</span><span>Print</span></div><p>Eine Nutzung wird für die vereinbarten Medien und Zwecke gesondert und ausdrücklich mit dem Paar festgehalten. So ist alles klar geregelt und dokumentiert.</p></div>
+    <div class="rights-card"><div class="rights-card-head"><span class="rights-lock" aria-hidden="true">✓</span><span>VEREINBARUNG</span><span class="rights-state">DOKUMENTIERT</span></div><div class="rights-line"><span>Nutzungsumfang</span><b>gemeinsam festlegen</b></div><div class="rights-line"><span>Medien und Zweck</span><b>ausdrücklich freigeben</b></div><div class="rights-line"><span>Zeitraum</span><b>transparent festhalten</b></div><small>Klare Zustimmung von beiden Seiten</small></div>
+   </div>
+  </section>
+
+  <section class="photographer-section cost-section" aria-labelledby="cost-title">
+   <div class="cost-panel"><div><div class="eyebrow">Portfolio ohne Zusatzkosten</div><h2 id="cost-title">Hochwertiges Portfolio-Material ohne Kosten.</h2><p>Workshops und Styled Shoots sind inszeniert. WedConnect bietet Zugang zu visuell relevanten Hochzeiten ohne zusätzliche Kosten.</p></div><div class="cost-statement"><span>DEIN EINSATZ</span><strong>Deine Zeit.<br><em>Nicht dein Budget.</em></strong><span class="cost-arrow" aria-hidden="true">↗</span></div></div>
+  </section>
+
+  <section class="photographer-section" aria-labelledby="growth-title">
+   <div class="development-panel">
+    <figure class="step-illustration"><img data-brand-illustration alt="WedConnect-Illustration: Fotograf und Hochzeitspaar bei einer gemeinsamen Reportage" loading="lazy"><figcaption><span>Ein gemeinsamer Blick auf den Tag.</span><span>WC—07</span></figcaption></figure>
+    <div><div class="eyebrow">Weiterentwicklung</div><h2 id="growth-title">Schärfe deinen Stil und baue dein Portfolio gezielt aus.</h2><p>Hochzeiten mit klarer Ästhetik, passenden Paaren und hochwertigen Locations helfen dir, deinen Stil weiterzuentwickeln.</p></div>
    </div>
   </section>
 
   <section class="photographer-section photographer-benefits" aria-labelledby="photographer-benefits-title">
-   <div class="benefit-copy"><div class="eyebrow">Auf einen Blick</div><h2 id="photographer-benefits-title">Warum Fotografen WedConnect nutzen.</h2><p>Eine Plattform, die dir Auswahl lässt und die Zusammenarbeit von Anfang an klar strukturiert.</p><button class="button" onclick="openSignup('photographer')">Profil erstellen <span aria-hidden="true">↗</span></button></div>
+   <div class="benefit-copy"><div class="eyebrow">Auf einen Blick</div><h2 id="photographer-benefits-title">Warum Fotografen WedConnect nutzen.</h2><p>Mehr Auswahl, klare Vereinbarungen und passende Begegnungen für dein Portfolio.</p><button class="button" onclick="openSignup('photographer')">Profil erstellen <span aria-hidden="true">↗</span></button></div>
    <ul class="benefit-list">
     <li><span>01</span>Viele Hochzeiten – du wählst selbst aus</li>
-    <li><span>02</span>Paare können Nutzungsrechte bewusst freigeben</li>
+    <li><span>02</span>Paare, die Nutzungsrechte bewusst freigeben</li>
     <li><span>03</span>Visuell starke Hochzeiten und hochwertige Locations</li>
-    <li><span>04</span>Portfolio wächst ohne Workshop-Kosten</li>
-    <li><span>05</span>Faire TFP-Struktur und klare Absprachen</li>
+    <li><span>04</span>Portfolio wächst ohne Kosten</li>
+    <li><span>05</span>Faire TFP-Struktur</li>
     <li><span>06</span>Matches nur bei beidseitigem Interesse</li>
-    <li><span>07</span>Direkter Austausch und dokumentierte Vereinbarungen</li>
-    <li><span>08</span>Ein modernes, hochwertiges Umfeld</li>
+    <li><span>07</span>Moderne, klare Kommunikation</li>
    </ul>
   </section>
 
   <section class="photographer-final-cta" aria-labelledby="photographer-cta-title">
    <div class="final-cta-mark" aria-hidden="true"><span>W</span><i></i><span>C</span></div>
-   <div><div class="eyebrow">Dein nächstes Kapitel</div><h2 id="photographer-cta-title">Bereit für Hochzeiten, die dein Portfolio wirklich weiterbringen?</h2><p>Erstelle dein Profil und finde Paare, die zu deiner Bildsprache passen. Nutzungsrechte besprecht ihr transparent und ausdrücklich miteinander.</p></div>
+   <div><div class="eyebrow">Dein nächstes Kapitel</div><h2 id="photographer-cta-title">Bereit für Hochzeiten, die dein Portfolio weiterbringen?</h2><p>Erstelle dein Profil und finde Paare, deren Bilder du verwenden darfst – mit klar vereinbarten Nutzungsrechten.</p></div>
    <button class="button" onclick="openSignup('photographer')">Profil erstellen <span aria-hidden="true">↗</span></button>
   </section>
  </div>
