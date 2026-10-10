@@ -4,13 +4,12 @@ WedConnect bringt Hochzeitspaare und Hochzeitsfotografen zusammen, wenn Hochzeit
 
 ## Aktueller Arbeitsstand
 
-Die aktuelle Design Bible und die Demo liegen im Branch [docs/wedconnect-design-bible-v1.0](https://github.com/Supersheriff1/WedConnect/tree/docs/wedconnect-design-bible-v1.0).
+Der visuell freigegebene Ausgangsstand bleibt unverändert im Branch [baseline/2026-10-10-pairing-demo](https://github.com/Supersheriff1/WedConnect/tree/baseline/2026-10-10-pairing-demo). Die aktuelle Weiterentwicklung liegt im Branch [feature/fotografen-page](https://github.com/Supersheriff1/WedConnect/tree/feature/fotografen-page).
 
-- [WedConnect Design Bible v1.0: Pairing · Dark Editorial · Gold](https://github.com/Supersheriff1/WedConnect/blob/docs/wedconnect-design-bible-v1.0/docs/DESIGN_BIBLE.md)
-- [Projektziele und Status quo](https://github.com/Supersheriff1/WedConnect/blob/docs/wedconnect-design-bible-v1.0/docs/PROJECT_STATUS.md)
-- [Direkt startbare HTML-Demo](https://github.com/Supersheriff1/WedConnect/blob/docs/wedconnect-design-bible-v1.0/prototype/index.html)
-- [Historische Together-Quellbibles](https://github.com/Supersheriff1/WedConnect/tree/docs/wedconnect-design-bible-v1.0/docs/sources)
-- [Eingefrorener Baseline-Stand vom 10. Oktober 2026](https://github.com/Supersheriff1/WedConnect/tree/baseline/2026-10-10-pairing-demo)
+- [WedConnect Design Bible v1.1 mit Illustrationssystem](https://github.com/Supersheriff1/WedConnect/blob/feature/fotografen-page/docs/DESIGN_BIBLE.md)
+- [Projektziele und aktueller Status](https://github.com/Supersheriff1/WedConnect/blob/feature/fotografen-page/docs/PROJECT_STATUS.md)
+- [Aktuelle HTML-Demo öffnen oder herunterladen](https://github.com/Supersheriff1/WedConnect/blob/feature/fotografen-page/prototype/index.html)
+- [Historische Together-Quellbibles](https://github.com/Supersheriff1/WedConnect/tree/feature/fotografen-page/docs/sources)
 
 ## Lokal ansehen
 
